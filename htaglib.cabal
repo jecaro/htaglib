@@ -56,7 +56,6 @@ library
 test-suite tests
     type:               exitcode-stdio-1.0
     main-is:            Spec.hs
-    build-tool-depends: hspec-discover:hspec-discover >=2 && <3
     hs-source-dirs:     tests
     other-modules:
         Sound.HTagLib.GetterSpec
