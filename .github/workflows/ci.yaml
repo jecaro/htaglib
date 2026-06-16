@@ -12,4 +12,4 @@ jobs:
   ci:
     uses: mrkkrp/haskell-ci/.github/workflows/haskell-ci.yml@master
     with:
-      system-dependencies: 'libtagc0-dev'
+      system-dependencies: 'libtag1-dev'
